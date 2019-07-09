@@ -1,0 +1,38 @@
+newmtl 0
+map_Kd ./X-45A.jpg
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+Tr 1
+d 1
+Ns 0
+illum 2
+
+newmtl 1
+Ka 0.25098 0.25098 0.25098
+Kd 0.25098 0.25098 0.25098
+Ks 0.423529 0.411765 0.388235
+Tr 1
+d 1
+Ns 64
+illum 2
+
+newmtl 2
+map_Kd ./X-45A.jpg
+Ka 0.25098 0.25098 0.25098
+Kd 1 1 1
+Ks 0.423529 0.411765 0.388235
+Tr 1
+d 1
+Ns 64
+illum 2
+
+newmtl 3
+Ka 0.3 0.3 0.3
+Kd 0.7 0.7 0.7
+Ks 0 0 0
+Tr 1
+d 1
+Ns 0
+illum 2
+
