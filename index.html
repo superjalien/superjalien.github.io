@@ -121,7 +121,7 @@ function initialize()
 	let material1 = new THREE.MeshLambertMaterial( { map: texture, opacity: 0.5 } );
 	
 	mesh1 = new THREE.Mesh( geometry1, material1 );
-	mesh1.position.y = 0;
+	mesh1.position.y = 1;
 	
 	markerRoot1.add( mesh1 );
 	
@@ -163,7 +163,7 @@ function initialize()
 				.setMaterials( materials )
 				.setPath( 'models/' )
 				.load( 'jh7.obj', function ( object ) {
-					object.position.y = 1;
+					object.position.y = 2;
 					object.scale.set(0.05,0.05,0.05);
 					markerRoot1.add( object );
 				}, onProgress, onError );
