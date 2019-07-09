@@ -151,6 +151,7 @@ function initialize()
 			.setPath( 'models/' )
 			.load( 'jh7.obj', function ( object ) {
 				object.position.y = 0.25;
+				object.scale.set(0.25,0.25,0.25);
 				markerRoot1.add( object );
 			}, onProgress, onError );
 
